@@ -87,3 +87,43 @@ li {
   font-size: 2rem;
   line-height: 1.2rem;
 }
+
+.main-body {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.service-box {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  justify-content: space-between;
+  margin-left: 6rem;
+}
+
+.service-item img {
+  width: 3.5rem;
+  margin-top: 3rem;
+}
+
+.service-item h3 {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
