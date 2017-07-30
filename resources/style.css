@@ -125,5 +125,43 @@ li {
   justify-content: center;
   font-family: Helvetica;
   font-size: 1rem;
-  flex-wrap: wrap;
+}
+
+.store-info {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.philosophy-appointments-container {
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  align-items: center;
+}
+
+.philosophy-appointments {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 35%;
+  margin-top: 3rem;
+}
+
+#philosophy-appointments-text {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+.philosophy-appointments p {
+  margin-top: 1rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin-right: 5%;
 }
