@@ -137,29 +137,30 @@ li {
   display: flex;
   width: 960px;
   justify-content: center;
-  align-items: center;
 }
 
 .philosophy-appointments {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
+  margin-left: 5rem;
   width: 35%;
-  margin-top: 3rem;
 }
 
-#philosophy-appointments-text {
+.philosophy-appointments-text {
   display: flex;
   font-family: Helvetica;
   font-size: 1rem;
   font-weight: bold;
   width: 10rem;
+  margin-top: 3rem;
   padding: 0.5rem 0 0.5rem 1.25rem;
   background-color: cadetblue;
   color: white;
 }
 
 .philosophy-appointments p {
+  display: flex;
   margin-top: 1rem;
   font-family: Helvetica;
   font-size: 1rem;
