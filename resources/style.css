@@ -112,12 +112,15 @@ li {
   height: 8rem;
   width: 5rem;
   justify-content: space-between;
-  margin-left: 6rem;
+  margin: 3rem;
+  align-items: center;
+  text-align: center;
 }
 
 .service-item img {
   width: 3.5rem;
   margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 .service-item h3 {
@@ -140,11 +143,9 @@ li {
 }
 
 .philosophy-appointments {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 5rem;
   width: 35%;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
 }
 
 .philosophy-appointments-text {
@@ -165,4 +166,29 @@ li {
   font-family: Helvetica;
   font-size: 1rem;
   margin-right: 5%;
+}
+
+.footer {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+  background-color: azure;
+}
+
+.footer-box img {
+  margin: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
+
+.footer-box h3 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: black;
 }
