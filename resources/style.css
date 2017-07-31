@@ -67,6 +67,10 @@ li {
   margin-right: 2rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .article-slogan {
   display: flex;
   justify-content: flex-end;
@@ -226,5 +230,73 @@ li {
 
   .footer-box {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .main-header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header-top {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: right;
+  }
+
+  .article-slogan {
+    margin-top: 9rem;
+  }
+
+  .article-text-box {
+    width: 100%;
+  }
+
+  #slogan {
+    margin: 1rem 0 1rem 0;
+    font-size: 1rem;
+  }
+
+  .service-box {
+    width: 100%;
+  }
+
+  .services {
+    flex-direction: column;
+    margin: 3.77rem 0 3.77rem 0;
+  }
+
+  .service-item h3 {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    margin-bottom: 1.54rem;
+  }
+
+  .philosophy-appointments-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .philosophy-appointments p {
+    margin: 1rem 0 4rem 0;
+    font-family: Helvetica;
+    font-size: 0.77rem;
+  }
+
+  .footer-box {
+    justify-content: center;
+  }
+
+  .footer-box h3 {
+    display: none;
   }
 }
