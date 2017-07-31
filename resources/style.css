@@ -192,3 +192,39 @@ li {
   font-size: 1rem;
   color: black;
 }
+
+@media only screen and (max-width: 1024px) {
+  .main-header {
+    height: 22rem;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header-top {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .article-slogan {
+    margin: 5rem 2rem 0 0;
+  }
+
+  #slogan {
+    margin: 0.75rem 4rem 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+  .service-box {
+    width: 100%;
+  }
+
+  .philosophy-appointments-container {
+    width: 100%;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+}
